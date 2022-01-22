@@ -1,0 +1,1 @@
+data modify storage realistic_combat:settings nerf_bow_and_shield set value 0b

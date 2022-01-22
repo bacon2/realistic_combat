@@ -1,0 +1,87 @@
+[
+  {
+    "function":"set_nbt",
+    "tag":"{AttributeModifiers:[]}",
+    "conditions":
+    [
+      {
+        "condition":"entity_properties",
+        "entity":"this",
+        "predicate":{
+          "equipment":
+          {
+            "offhand": {
+              "items":["minecraft:shield"]
+            }
+          }
+        }
+      },
+      {
+          "condition":"entity_properties",
+          "entity":"this",
+          "predicate":{
+            "equipment":
+            {
+              "offhand": {
+                "nbt":"{realistic:1}"
+              }
+            }
+          }
+        
+      }
+    ]
+  },
+  {
+    "function":"set_nbt",
+    "tag":"{AttributeModifiers:[]}",
+    "conditions":
+    [
+      {
+        "condition":"entity_properties",
+        "entity":"this",
+        "predicate":{
+          "equipment":
+          {
+            "offhand": {
+              "items":["minecraft:bow"]
+            }
+          }
+        }
+      },
+      {
+
+          "condition":"entity_properties",
+          "entity":"this",
+          "predicate":{
+            "equipment":
+            {
+              "offhand": {
+                "nbt":"{realistic:1}"
+              }
+            }
+          }
+        
+      }
+    ]
+  },
+  {
+    "function":"set_nbt",
+    "tag":"{realistic:0}",
+    "conditions":
+    [
+      {
+        "condition":"entity_properties",
+        "entity":"this",
+        "predicate":{
+          "equipment":
+          {
+            "offhand": {
+              "items":["minecraft:bow","minecraft:shield"]
+            }
+          }
+        }
+      }
+    ]
+  }
+]
+

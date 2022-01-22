@@ -1,0 +1,2 @@
+execute as @s[nbt=!{HurtTime:0s}] run function realistic_combat:hurt_particles
+execute as @s[type=!minecraft:player, predicate=!realistic_combat:wearing_helmet] if entity @p[distance=..7] run function realistic_combat:death_watcher

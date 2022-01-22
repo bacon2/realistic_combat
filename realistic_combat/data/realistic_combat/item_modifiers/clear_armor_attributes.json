@@ -1,0 +1,8 @@
+[
+  {
+    "function":"set_nbt",
+    "tag":"{AttributeModifiers:{}}",
+    "condition":"inverted"
+  }
+]
+

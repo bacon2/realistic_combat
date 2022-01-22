@@ -1,0 +1,1 @@
+data modify storage realistic_combat:settings armor_weight set value 1b

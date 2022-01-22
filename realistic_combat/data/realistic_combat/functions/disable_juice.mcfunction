@@ -1,0 +1,1 @@
+data modify storage realistic_combat:settings juice set value 0b

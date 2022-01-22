@@ -1,0 +1,13 @@
+{
+  "function":"set_attributes",
+  "modifiers":
+  [
+    {
+      "name":"generic.movement_speed",
+      "attribute":"generic.movement_speed",
+      "operation":"addition",
+      "amount":1,
+      "slot":"head"
+    }
+  ]
+}
