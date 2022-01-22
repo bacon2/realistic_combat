@@ -1,6 +1,7 @@
 # realistic_combat
 A Minecraft datapack for 1.17 JE
 
+
 This pack adds 4 minor combat-realism tweaks, all of which can be toggled on or off.
 
 1. Armor Weight. (/function realistic_combat:disable_armor_weight)
